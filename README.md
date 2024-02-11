@@ -8,4 +8,4 @@ Cinco ejercicios con JS y un diagrama de flujo (En realidad sólo son 4, el 5to 
 
 ## Autor ✒️
 
-- **Romina Valenzuela F.** - (https://github.com/brayandiazc)
+- **Romina Valenzuela F.** - (https://github.com/Romstroke)
