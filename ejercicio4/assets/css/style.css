@@ -1,0 +1,15 @@
+body{
+    font-family: "adobe-clean", sans-serif;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+span{
+    color: #749d2d;
+    font-weight: bold;
+}
+
+::marker{
+    color: #749d2d;
+    font-size: 20px;
+}

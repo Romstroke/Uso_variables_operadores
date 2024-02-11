@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafío - Uso de variables y operadores aritméticos</title>
+</head>
+
+<body>
+    <header>
+        <p>
+            <span>5.</span> Crear un programa que solicite al usuario 5 números y realice los cálculos que se piden
+            a continuación. (2 Puntos)
+        <ul>
+            <li>
+                La suma de todos los números.
+            </li>
+            <li>
+                El promedio de los 5 números ingresados.
+            </li>
+        </ul>
+        </p>
+    </header>
+    <section id="tablaNumeros">
+        <h2>Números ingresados por el usuario:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número 1</th>
+                    <th>Número 2</th>
+                    <th>Número 3</th>
+                    <th>Número 4</th>
+                    <th>Número 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="uno"></td>
+                    <td id="dos"></td>
+                    <td id="tres"></td>
+                    <td id="cuatro"></td>
+                    <td id="cinco"></td>
+                </tr>
+                <tr>
+                    <td class="resultado" colspan="1">Suma total</td>
+                    <td colspan="4" id="sumaTotal"></td>
+                </tr>
+                <tr>
+                    <td class="resultado" colspan="1">Promedio</td>
+                    <td colspan="4" id="promedio" ></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="assets/js/ejercicio5cinco_numeros.js"></script>
+</body>
+
+</html>
